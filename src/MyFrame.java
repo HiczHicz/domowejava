@@ -3,8 +3,6 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class MyFrame extends JFrame{
-    //private JTextField reInput, imInput, reResult, imResult;
-    //ew zamiast dać tutaj private to zrobić przy kazdym np. JTextField reInput = new JTextField();
     private Complex newtonComplex(Complex z, double epsilon) {
         while (true) {
             //f(z)=z^3-1
